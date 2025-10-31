@@ -1,0 +1,15 @@
+{
+    "name": "projet_deefy/php",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Alexis CERDA & Emilien BODAT",
+            "email": "alexis.cerda-de-almeida-vilaca2@etu.univ-lorraine.fr"        
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "iutnc\\deefy\\" : "src/classes"
+        }
+    }
+}
