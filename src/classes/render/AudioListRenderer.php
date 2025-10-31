@@ -17,7 +17,7 @@ class AudioListRenderer extends Renderer {
             $data = json_decode((string)$p, true);
             $html .= "<li>" . htmlspecialchars($data['titre']) . " - " . htmlspecialchars($data['nom']) . "</li>";
         }
-        $html .= "</ul><p>{$this->list->nbPistes} pistes – {$this->list->dureeTotale}s</p>";
+        $html .= "</ul><p>{$this->list->nbPistes} pistes</p>";
         return $html;
     }
 }
